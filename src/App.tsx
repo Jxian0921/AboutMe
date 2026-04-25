@@ -39,11 +39,11 @@ const projects = [
     labNotes: "Fun fact: 10wt% of FeCl3 will melt over your 304L thermocouple. Also, when a solution becomes calm enough at high temperature, the next second it will turn into a volcano.",
     tags: ["SolidWorks", "SEM/EDS", "Metallurgy", "Experimental Setup"],
     category: "Final Year Project",
-    image: "/FYP project/SCC.jpg",
+    image: "/FYP Project/SCC.jpg",
     gallery: [
-      { url: "/FYP project/SCC.jpg", caption: "Stress Corrosion Cracking Analysis" },
-      { url: "/FYP project/C-ring.jpg", caption: "C-ring Specimen Setup" },
-      { url: "/FYP project/Apparatus.jpg", caption: "Experimental Apparatus" }
+      { url: "/FYP Project/SCC.jpg", caption: "Stress Corrosion Cracking Analysis" },
+      { url: "/FYP Project/C-ring.jpg", caption: "C-ring Specimen Setup" },
+      { url: "/FYP Project/Apparatus.jpg", caption: "Experimental Apparatus" }
     ]
   },
   {
@@ -54,24 +54,24 @@ const projects = [
         Group Project in developing an innovative hybrid solar collector based on <strong>Concentrated Solar Power</strong> and <strong>Evacuated Tube Collector</strong>.
       </span>
     ),
-    labNotes: "No notes here, just wanted to share the irony: during prototype testing it would always rain, but as soon as we stopped, the sun would come out.",
+    labNotes: "The universe definitely has a sense of humor. Every time we set up the prototype for testing, it started to rain. The moment we packed everything up and stopped, the sun would come out to mock us.",
     tags: ["Solar Thermal", "Optical Concentration", "Renewable Energy"],
     category: "Thermal Systems",
     image: "/Solar Project/Water result.jpg",
     gallery: [
-      { url: "/Solar Project/hex assembly.mp4", caption: "Full Assembly of the Hybrid Collector System" },
-      { url: "/Solar Project/Working Video.mp4", caption: "Operational Testing and Flow Visualization" },
-      { url: "/Solar Project/Water result.jpg", caption: "Result of Prototype" },
-      { url: "/Solar Project/idp1.jpg", caption: "Picture with Project" },
-      { url: "/Solar Project/idp2.jpg", caption: "Poster Presentation" },
-      { url: "/Solar Project/BOM2.jpg", caption: "Components and workflow Diagram" }
+      { url: "/Solar Project/hex assembly.mp4", caption: "HEX ASSEMBLY: Full Assembly of the Hybrid Collector System" },
+      { url: "/Solar Project/BOM Video.mp4", caption: "WORKING VIDEO: Operational Testing and Flow Visualization" },
+      { url: "/Solar Project/Water result.jpg", caption: "WATER RESULT: Result of Prototype" },
+      { url: "/Solar Project/idp1.jpg", caption: "IDP 1: Picture with Project" },
+      { url: "/Solar Project/idp2.jpg", caption: "IDP 2: Poster Presentation" },
+      { url: "/Solar Project/BOM2.jpg", caption: "BOM 2: Components and workflow Diagram" }
     ]
   },
   {
     id: "temp",
     title: "Intelligent Home Temperature-Controlled System",
     description: "Group Project in designed a temperature-responsive system using integrated sensors and motor drivers for automated climate control in residential environments.",
-    labNotes: "We used a candle with the heat sensor; the temperature did rise, but stopped after a few minutes as it was damaged by the heat.",
+    labNotes: "We used a candle for the heat sensor. The temperature definitely rose, but the sensor decided to quit on us after a few minutes—turns out it didn't like being that close to an actual flame!",
     tags: ["Arduino", "Sensors", "Automation"],
     category: "Robotics",
     image: "/Electrical/Electrical.jpg",
@@ -83,50 +83,50 @@ const projects = [
     id: "fluid",
     title: "Fluid Flow Analysis System",
     description: "Group Project of developing C++ program to analyze fluid dynamics parameters such as pressure loss and head loss across  various piping .",
-    labNotes: "Why choose Fluid Dynamics as a title? Honestly, I just thought 'Reynold Number' sounded cool as a nickname. (ChatGPT wasn't around yet to help us through the struggle!)",
+    labNotes: "I chose Fluid Dynamics mostly because I thought 'Reynold Number' sounded like a cool nickname. Turns out the coding part was way more turbulent than the name!",
     tags: ["C++", "Fluid Mechanics", "Simulation"],
     category: "Computing",
-    image: "/C++/C++.jpg",
+    image: "/Fluid flow/C++.jpg",
     gallery: [
-      { url: "/C++/C++.jpg", caption: "C++ code of program" }
+      { url: "/Fluid flow/C++.jpg", caption: "C++ code of program" }
     ]
   },
   {
     id: "turbine",
     title: "Rotating Water Turbine Model",
     description: "From scrape to a model , from static to dynamics.",
-    labNotes: "After submission, I wished to 'retrieve' it from my uni, but I couldn't find its body. It's a sad story.",
+    labNotes: "After final submission, I went back to 'rescue' the prototype from the uni, but it had completely vanished. I still think it's out there somewhere... probably in a scrap pile.",
     tags: ["Mechanical Design", "Dynamics", "Hydraulics"],
     category: "Fluid Power",
-    image: "/Metal Scrape/metal (2).jpg",
+    image: "/Metal/metal (2).jpg",
     gallery: [
-      { url: "/Metal Scrape/metal (2).jpg", caption: "Initial Metal Scrape Component Preparation" },
-      { url: "/Metal Scrape/Water Turbine.mp4", caption: "Rotating Turbine Model Testing Session" }
+      { url: "/Metal/metal (2).jpg", caption: "METAL (2): Initial Metal Scrape Component Preparation" },
+      { url: "/Metal/Water Turbine.mp4", caption: "WATER TURBINE: Rotating Turbine Model Testing Session" }
     ]
   },
   {
     id: "gear",
     title: "Gear Failure Simulation",
     description: "Solidworks Simulation of Gear under Loading Condition.",
-    labNotes: "Why draw your own gear when you can just go to GrabCAD?",
+    labNotes: "Pro-tip: Why spend hours drawing your own gear from scratch when GrabCAD exists? Save your sanity and just download the model!",
     tags: ["ANSYS", "Stress Analysis", "Failure Prediction"],
     category: "Simulation",
     image: "/Gear/S2161079_KIG2017_GEAR_page-0001.jpg",
     gallery: [
-      { url: "/Gear/S2161079_KIG2017_GEAR_page-0001.jpg", caption: "Stress Distribution Analysis on Tooth Loading" }
+      { url: "/Gear/S2161079_KIG2017_GEAR_page-0001.jpg", caption: "GEAR: Stress Distribution Analysis on Tooth Loading" }
     ]
   },
   {
     id: "heat-calc",
     title: "Numerical Calculation Program of Heat Transfer",
     description: "Implementation of Numerical Euler and Runge-Kutta 4 (RK4) methods to solve non-linear heat transfer differential equations.",
-    labNotes: "It's not fun to code something, especially with MATLAB.",
+    labNotes: "Let's be honest, nobody actually has 'fun' coding in MATLAB. It’s more like a character-building exercise in matrix-induced frustration.",
     tags: ["Numerical Methods", "MATLAB", "Thermodynamics"],
     category: "Computational",
     image: "/Numerical/Euler.jpg",
     gallery: [
-      { url: "/Numerical/Euler.jpg", caption: "Numerical Solution using Euler's Method" },
-      { url: "/Numerical/RK4.jpg", caption: "Precision Comparison using RK4 Algorithm" }
+      { url: "/Numerical/Euler.jpg", caption: "EULER: Numerical Solution using Euler's Method" },
+      { url: "/Numerical/RK4.jpg", caption: "RK4: Precision Comparison using RK4 Algorithm" }
     ]
   },
   {
@@ -344,7 +344,7 @@ export default function App() {
                   </div>
                   <div className="p-4 border border-border bg-card/30">
                     <p className="text-[10px] font-mono uppercase text-muted-foreground mb-1">Status</p>
-                    <p className="text-xl font-bold text-primary">Available for Job</p>
+                    <p className="text-xl font-bold text-primary">Available after August</p>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
