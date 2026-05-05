@@ -86,9 +86,9 @@ const projects = [
     labNotes: "I chose Fluid Dynamics mostly because I thought 'Reynold Number' sounded like a cool nickname. Turns out the coding part was way more turbulent than the name!",
     tags: ["C++", "Fluid Mechanics", "Simulation"],
     category: "Computing",
-    image: "/Fluid flow/C++.jpg",
+    image: "/Fluid flow/Code.jpg",
     gallery: [
-      { url: "/Fluid flow/C++.jpg", caption: "C++ code of program" }
+      { url: "/Fluid flow/Code.jpg", caption: "C++ code of program" }
     ]
   },
   {
